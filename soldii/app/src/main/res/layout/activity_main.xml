@@ -5,19 +5,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#FAF3E0"
     android:padding="16dp">
 
     <TextView
         android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:fontFamily="serif"
         android:text="soldi"
         android:textSize="96sp"
-        app:layout_constraintHorizontal_bias="0.496"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:textColor="#3A3A3A"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,12 +29,13 @@
         android:layout_height="60dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:backgroundTint="#08FF79"
+        android:backgroundTint="#A5C9CA"
         android:elevation="15dp"
         android:fontFamily="monospace"
         android:text="start"
         android:textAlignment="center"
-        android:textSize="21sp"
+        android:textColor="#4E3629"
+        android:textSize="29sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView"
@@ -45,19 +47,20 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
         android:layout_marginTop="80dp"
-        android:backgroundTint="#08FF79"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#A5C9CA"
         android:elevation="10dp"
         android:fontFamily="monospace"
         android:text="settings"
         android:textAlignment="center"
-        android:textSize="21sp"
+        android:textColor="#4E3629"
+        android:textSize="29sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/buttonStart"
-        app:layout_constraintVertical_chainStyle="spread_inside"
-        app:layout_constraintHorizontal_bias="0.5" />
+        app:layout_constraintVertical_chainStyle="spread_inside" />
 
     <Button
         android:id="@+id/buttonLeave"
@@ -65,19 +68,19 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
         android:layout_marginTop="80dp"
-        android:backgroundTint="#08FF79"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#A5C9CA"
         android:elevation="10dp"
         android:fontFamily="monospace"
         android:text="leave"
         android:textAlignment="center"
-        android:textSize="21sp"
+        android:textColor="#4E3629"
+        android:textSize="29sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/buttonSettings"
-        app:layout_constraintVertical_chainStyle="spread_inside"
-        app:layout_constraintHorizontal_bias="0.5" />
-
+        app:layout_constraintVertical_chainStyle="spread_inside" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
