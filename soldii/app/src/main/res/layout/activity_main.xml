@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="serif"
+        android:text="soldi"
+        android:textSize="96sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#08FF79"
+        android:elevation="15dp"
+        android:fontFamily="monospace"
+        android:text="start"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#08FF79"
+        android:elevation="10dp"
+        android:fontFamily="monospace"
+        android:text="settings"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonStart"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <Button
+        android:id="@+id/buttonLeave"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#08FF79"
+        android:elevation="10dp"
+        android:fontFamily="monospace"
+        android:text="leave"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonSettings"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
