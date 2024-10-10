@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background_color_light</item>
+        <item name="android:textColor">@color/button_text_color_light</item>
+        <item name="colorPrimary">@color/button_background_color_light</item>
+        <item name="colorOnPrimary">@color/button_text_color_light</item>
+    </style>
+</resources>
