@@ -2,30 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAF3E0">
-
-    <Button
-        android:id="@+id/buttonLeave"
-        style="@style/Widget.MaterialComponents.Button"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="15dp"
-        android:backgroundTint="#A5C9CA"
-        android:elevation="10dp"
-        android:fontFamily="monospace"
-        android:text="leave"
-        android:textAlignment="center"
-        android:textColor="#2E2F26"
-        android:textSize="29sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView3"
-        app:layout_constraintVertical_chainStyle="spread_inside" />
+    android:background="@color/background_color_light">
 
     <TextView
         android:id="@+id/textView3"
@@ -35,11 +15,32 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="15dp"
         android:fontFamily="sans-serif-black"
-        android:text="there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing "
+        android:text="there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing there's nothing"
         android:textSize="20sp"
+        android:textColor="@color/button_text_color_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/buttonleave"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/button_background_color_light"
+        android:elevation="10dp"
+        android:fontFamily="monospace"
+        android:text="leave"
+        android:textAlignment="center"
+        android:textColor="@color/button_text_color_light"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
